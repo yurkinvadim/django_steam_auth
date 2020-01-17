@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#В душе не ебу что ето но игнорим
+.idea/
