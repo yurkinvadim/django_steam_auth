@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_steam_auth.urls'
+ROOT_URLCONF = 'steam_auth.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_steam_auth.wsgi.application'
+WSGI_APPLICATION = 'steam_auth.wsgi.application'
 
 
 # Database
