@@ -13,5 +13,3 @@ class Card(models.Model):
 
     def get_absolute_url(self):
         return reverse('product_detail_url', kwargs={'slug': self.slug})
-
-# Create your models here.
