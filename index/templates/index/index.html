@@ -2,18 +2,5 @@
 {% extends 'base.html'%}
 {% load static %}
 {% block content %}
-    <div class="container mt-5">
-        <div class="row row-cols-5">
-            {% for card in cards %}
-                <div style="background-color: {{card.color}};  margin-left: 50px;margin-right: 50px; block-size: 250px;" class="card"><a href="{{card.slug}}/" style="color: #000000; text-decoration: none;">
-                    <img src="{% static card.picture %}" class="card-img-top" alt="..">
-                     <div class="card-body">
-                     <h5 class="card-title">{{card.title}}</h5>
-                     <p class="card-text">{{card.body}}</p>
-                    </div>
-                </a></div>
-
-            {% endfor %}
-        </div>
-    </div>
+    <h1>Сюда загрузи карточки</h1>
 {% endblock %}
