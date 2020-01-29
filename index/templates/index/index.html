@@ -3,13 +3,13 @@
 {% load static %}
 {% block content %}
     {% for card in cards %}
-        <div style="background-color: {{card.color}};  margin-left: 50px;margin-right: 50px; block-size: 500px;" class="card">
+        <div style="background-color: {{card.color}};  margin-left: 50px;margin-right: 50px; block-size: 250px;" class="card"><a href="/authenticator" style="color: #000000; text-decoration: none;">
             <img src="{% static card.picture %}" class="card-img-top" alt="..">
              <div class="card-body">
              <h5 class="card-title">{{card.title}}</h5>
              <p class="card-text">{{card.body}}</p>
              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
-        </div>
+        </a></div>
     {% endfor %}
 {% endblock %}
