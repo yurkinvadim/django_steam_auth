@@ -2,5 +2,32 @@
 {% extends 'base.html'%}
 {% load static %}
 {% block content %}
-    <h1>Сюда загрузи карточки</h1>
+    <div class="container mt-5">
+        <div class="row row-cols-3">
+            
+                <div class="ml-auto" style="background-color: #a75252;"><a href="authenticator/" style="color: #000000; text-decoration: none;">
+                    <img src="/static/images/supernova-7-palette-example-palette-usage-example-by-blue-phoenix.png" class="card-img-top" alt="..">
+                     <div class="card-body">
+                     <h5 class="card-title">Card title</h5>
+                     <p class="card-text">М </p>
+                    </div>
+                </a></div>
+            
+                <div class="offset-md-1 ml-auto" style="background-color: #cf7862;"><a href="bot_status/" style="color: #000000; text-decoration: none;">
+                    <img src="/static/images/supernova-7-palette-example-palette-usage-example-by-blue-phoenix.png" class="card-img-top" alt="..">
+                     <div class="card-body">
+                     <h5 class="card-title">Card title2</h5>
+                     <p class="card-text">М </p>
+                    </div>
+                </a></div>
+            
+                <div class="offset-md-1 ml-auto" style="background-color: #ffce9c;"><a href="card_farm/" style="color: #000000; text-decoration: none;">
+                    <img src="/static/images/supernova-7-palette-example-palette-usage-example-by-blue-phoenix.jpg" class="card-img-top" alt="..">
+                     <div class="card-body">
+                     <h5 class="card-title">Card title3</h5>
+                     <p class="card-text">М </p>
+                    </div>
+                </a></div>
+        </div>
+    </div>
 {% endblock %}
